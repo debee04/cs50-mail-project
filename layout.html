@@ -1,0 +1,32 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>{% block title %}Mail{% endblock %}</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" href="{% static 'mail/styles.css' %}">
+    </head>
+    <body>
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="inbox.html">inbox</a>
+                </li>
+                 <li class="nav-item">
+                        <a class="nav-link" href="compose.html"target="blank">compose</a>
+                    </li>
+               
+                   <li class="nav-item">
+                <a class="nav-link"href="sent.html" target="blank">sent</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link"href="Archived.html" target="blank">Archived</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link"href="logout.h" target="blank">logout</a>
+           
+        </div>
+    </body>
+    
+</html>
