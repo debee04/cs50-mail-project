@@ -1,0 +1,68 @@
+{% extends "auctions/layout.html" %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auctions</title>
+    <style>
+        body{
+            background-color: whitesmoke;
+        }
+    </style>
+</head>
+<body>
+    </a>  |
+<a href="index.html">index
+</a> |
+<a href="layout.html">layout</a> |
+<a href="register.html">register
+</a> |
+<a href="log out.html">log out|
+    <a href="login.html">login</a>
+</a> <a href="watclist.html">watclist</A>
+    <a href="create listing.html">create listing</a>
+</nav>
+<ul class="nav">
+    <li class="nav-item">
+        <a class="nav-link" href="index.html">Active Listings</a>
+    </li>
+     <li class="nav-item">
+            <a class="nav-link" href="my catergories.html"target="blank">catergories</a>
+        </li>
+   
+       <li class="nav-item">
+    <a class="nav-link"href="log out.html" target="blank">Log out</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link"href="watclist.html" target="blank">watclist</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link"href="create listing.html" target="blank">create listing</a>
+</ul>
+
+
+    <h2>Listing: broomstick</h2>
+    <h6>watclist</h6>
+    <img src="https://i.pinimg.com/originals/c6/4f/1b/c64f1b864fb7c3e88832ca3be3a1dc08.jpg" alt="" width="600px" height="400"> 
+    <h6>nimbus 2000 broomstick</h6>
+    <h2>$80.00</h2>
+    <input type="search" value="bid"
+    <a href="payed bid.html">
+        <br><br>
+        <button type="button">
+            place bid
+        </button>
+  <br><br>
+  <h2>details</h2>
+  <ul>
+      <li>listed my: harry</li>
+      <li>catergories: no catergories listed</li>
+  </ul>
+</body>
+</html>
+
+    
+
+    
+
